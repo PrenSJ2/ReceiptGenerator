@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # Adding arguments with both long and short options
     parser.add_argument("-s", "--start_date", type=str, required=True, help="Start date in format DD-MM-YYYY")
     parser.add_argument("-e", "--end_date", type=str, required=True, help="End date in format DD-MM-YYYY")
-    parser.add_argument("-r", "--nightly_rate", type=float, default=60.0, help="Nightly rate in GBP (default is 60)")
+    parser.add_argument("-r", "--nightly_rate", type=float, default=63.0, help="Nightly rate in GBP (default is 63)")
 
     # Parse the arguments
     args = parser.parse_args()
